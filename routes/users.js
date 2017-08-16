@@ -4,7 +4,11 @@ var bcrypt = require('bcrypt');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.render('users/usersHome')
 });
+
+
+
+
 
 module.exports = router;
